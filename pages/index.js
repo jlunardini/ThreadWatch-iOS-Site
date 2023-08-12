@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col md:flex-row gap-12 items-center justify-center p-24 bg-[#0E0E0E] overflow-y-hidden">
-      <div className="flex flex-col">
+    <main className="flex min-h-screen flex-col md:flex-row gap-12 items-center md:justify-center md:p-24 bg-[#0E0E0E] overflow-y-hidden">
+      <div className="flex flex-col pt-24 px-24 md:p-0 flex-shrink">
         <h1 className="text-primaryOrange text-5xl font-DankMono">
           ThreadWatch
         </h1>
@@ -17,15 +17,11 @@ export default function Home() {
           Coming September 2023
         </div>
       </div>
-      <div className="relative w-[400px] max-h-[600px] lg:max-h-[800px]">
-        <img
-          priority
-          alt="Screenshot of ThreadWatch iOS App"
-          layout="fill"
-          objectFit={"contain"}
-          src="/threadwatch-ios-screencap-1.png"
-        />
-      </div>
+      <img
+        alt="Screenshot of ThreadWatch iOS App"
+        className="max-h-[600px] md:flex-shrink-0 md:h-[700px] px-8"
+        src="/threadwatch-ios-screencap-1.png"
+      />
     </main>
   );
 }
