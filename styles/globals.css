@@ -25,3 +25,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@font-face {
+  font-family: "DankMono";
+  src: url("../public/Fonts/DankMono/DankMono-Regular.otf");
+  font-display: swap;
+}
