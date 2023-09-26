@@ -14,7 +14,7 @@ export default function Home() {
           <li>Add fade pics to see progress over time</li>
         </ul>
         <div className="mt-6 self-start font-DankMono text-primaryOrange px-4 py-1 rounded-full border border-primaryOrange">
-          Coming September 2023
+          Coming October 2023
         </div>
       </div>
       <img
