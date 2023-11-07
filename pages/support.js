@@ -15,6 +15,16 @@ export default function Support() {
             the developer
           </a>
         </p>
+        <p className="mt-8">
+          Many thanks to{" "}
+          <a
+            href="https://www.flaticon.com/free-icons/pants"
+            title="pants icons"
+          >
+            Pants icons created by Good Ware - Flaticon
+          </a>
+          for supplying the pants icon used in the app
+        </p>
       </div>
       <img
         alt="Screenshot of ThreadWatch iOS App"
