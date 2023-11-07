@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Support() {
   return (
-    <main className="flex min-h-screen flex-col md:flex-row gap-12 items-center md:justify-center md:p-24 bg-[#0E0E0E] overflow-y-hidden relative">
+    <main className="flex min-h-screen flex-col md:flex-row gap-12 items-center md:justify-center md:p-24 bg-[#0E0E0E] overflow-y-hidden">
       <div className="flex flex-col pt-24 px-24 md:p-0 flex-shrink lg:max-w-md">
         <h1 className="text-primaryOrange text-5xl font-DankMono">Support</h1>
         <p className="text-primaryGray mt-4">
@@ -14,16 +14,6 @@ export default function Support() {
           >
             the developer
           </a>
-        </p>
-        <p className="mt-8">
-          Many thanks to{" "}
-          <a
-            href="https://www.flaticon.com/free-icons/pants"
-            title="pants icons"
-          >
-            Pants icons created by Good Ware - Flaticon
-          </a>
-          for supplying the pants icon used in the app
         </p>
       </div>
       <img
