@@ -26,7 +26,7 @@ export default function Home() {
 					Support
 				</Link>
 				<Link className="text-primaryGray font-sans" href="/changelog">
-					What's New
+					Changelog
 				</Link>
 			</div>
 		</main>
