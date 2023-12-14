@@ -9,7 +9,7 @@ export default function Privacy() {
 				<p className="text-primaryGray mt-4">ThreadWatch does not take any of your data for any reason.</p>
 			</div>
 			<img alt="Screenshot of ThreadWatch iOS App" className="max-h-[600px] md:flex-shrink-0 md:h-[700px] px-8 mb-24 md:mb-0" src="/threadwatch-ios-screencap-1.png" />
-			<div className="absolute bottom-4 left-0 right-0 w-full flex justify-center gap-8">
+			<div className="relative lg:absolute bottom-4 left-0 right-0 w-full flex flex-col md:flex-row justify-center gap-8 text-center lg:text-left mb-8 lg:mb-0">
 				<Link className="text-primaryGray font-sans" href="/">
 					Home
 				</Link>
