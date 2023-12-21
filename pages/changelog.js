@@ -9,6 +9,16 @@ export default function Support() {
 				<div className="rounded-md bg-[#1C1C1E] p-4 mt-8">
 					<p className="font-DankMono text-2xl text-primaryGray mb-4">Pending</p>
 					<ul className="list-outside list-disc text-primaryGray text-lg font-sans pl-6 flex flex-col gap-2">
+						<li>Resolved bug that kicked you out of worn/washed view when adding or deleting.</li>
+						<li>Resolved bug where image did not fill full card height when editing a thread.</li>
+						<li>Re-did Thread detail layout</li>
+						<li>Added "Times Worn this Week" to statistics.</li>
+						<li>Added new section "Size & Measurements". In this section you will find a spot to track how a given pair fits you, and right below you can add specific measurement values.</li>
+					</ul>
+				</div>
+				<div className="rounded-md bg-[#1C1C1E] p-4 mt-8">
+					<p className="font-DankMono text-2xl text-primaryOrange mb-4">Dec 19th, 2023</p>
+					<ul className="list-outside list-disc text-primaryGray text-lg font-sans pl-6 flex flex-col gap-2">
 						<li>Added delete confirmation when attempting to delete thread</li>
 						<li>Added ability to show/hide fit and fade pics per thread</li>
 						<li>Added ability to save a pic by long pressing from expanded view</li>
