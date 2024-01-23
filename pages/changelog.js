@@ -9,6 +9,14 @@ export default function Support() {
 				<div className="rounded-md bg-[#1C1C1E] p-4 mt-8">
 					<p className="font-DankMono text-2xl text-primaryGray mb-4">Pending</p>
 					<ul className="list-outside list-disc text-primaryGray text-lg font-sans pl-6 flex flex-col gap-2">
+						<li>Added new tab “Dashboard”.  This screen currently shows your week at a glance, and will be expanded to include much more data.</li>
+						<li>Added new “Total” graph to Worn/Washed Views</li>
+						<li>Resolved issue where photo picker / camera may fail to appear</li>
+					</ul>
+				</div>
+				<div className="rounded-md bg-[#1C1C1E] p-4 mt-8">
+					<p className="font-DankMono text-2xl text-primaryOrange mb-4">December 22nd, 2023</p>
+					<ul className="list-outside list-disc text-primaryGray text-lg font-sans pl-6 flex flex-col gap-2">
 						<li>Resolved bug that kicked you out of worn/washed view when adding or deleting.</li>
 						<li>Resolved bug where image did not fill full card height when editing a thread.</li>
 						<li>Re-did Thread detail layout</li>
